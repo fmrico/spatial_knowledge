@@ -1,0 +1,18 @@
+
+object_ids: ["Mesa_cocina", "Silla_salon", "Jarron_entrada"]
+
+Mesa_cocina: {
+      category: "Mesa",
+      position: "1.0, 1.0, 0.5",
+      dimensions: "1.0, 1.0, 1.0",
+}
+Silla_salon: {
+      category: "Silla",
+      position: "4.0, 5.0, 0.6",
+      dimensions: "0.3, 0.3, 1.2",
+}
+Jarron_entrada: {
+      category: "Jarron",
+      position: "5.0, 1.0, 1.0",
+      dimensions: "0.2, 0.2, 0.3",
+}

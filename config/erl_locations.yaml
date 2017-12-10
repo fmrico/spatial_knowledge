@@ -1,0 +1,11 @@
+
+location_ids: ["kitchen", "bedroom"]
+
+kitchen: {
+      range: "[-2.0, 2.0], [-2.0, 2.0], [0.0, 2.0]",
+      position: "0.0, 0.0, 0.0"
+}
+bedroom: {
+      range: "[2.0, 4.0], [-1.0, 1.0], [0.0, 2.0]",
+      position: "3.0, 0.0, 0.0"
+}

@@ -1,0 +1,17 @@
+
+people_ids: ["Jack", "Apu"]
+
+Jack: {
+      category: "Doctor",
+      instance: "visitor",
+      file: "Jack.jpg",
+      position: "1.0, 1.0, 0.0",
+      dimensions: "0.2, 0.3, 1.8",
+}
+Apu: {
+      category: "Deli",
+      instance: "visitor",
+      file: "Apu.jpg",
+      position: "5.0, 1.0, 0.0",
+      dimensions: "0.2, 0.3, 1.8",
+}

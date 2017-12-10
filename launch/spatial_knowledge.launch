@@ -1,0 +1,18 @@
+<launch>
+
+	<include file="$(find erl_planning)/launch/ERL_attending.launch" >
+	</include>
+
+	<node name="sk_map_node" pkg="spatial_knowledge" type="sk_map_node" output="screen">
+		<rosparam file="$(find spatial_knowledge)/config/erl_locations.yaml" command="load" param="locations"/>
+	</node>
+
+	<node name="sk_people_node" pkg="spatial_knowledge" type="sk_people_node" output="screen">
+		<rosparam file="$(find spatial_knowledge)/config/erl_people.yaml" command="load" param="people"/>
+	</node>
+
+	<node name="sk_object_node" pkg="spatial_knowledge" type="sk_object_node" output="screen">
+		<rosparam file="$(find spatial_knowledge)/config/erl_object.yaml" command="load" param="object"/>
+	</node>
+
+</launch>
